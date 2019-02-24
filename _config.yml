@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: True    #是否开启Gitalk评论
-  clientID: 58669af145b7bf49db49                          #生成的clientID
-  clientSecret: 504a9f41259c4c22ac947bb1fdb9ad19dbaf9cfd    #生成的clientSecret
+  clientID: 7808941c97a2f16167b5                          #生成的clientID
+  clientSecret: e273346fc0e4d781af7c11ed694c823a03611307    #生成的clientSecret
   repo: loopy.github.io    #仓库名称
   owner: loopyme    #github用户名
   admin: loopyme
