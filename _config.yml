@@ -1,11 +1,11 @@
 # Site settings
-title: 锟斤拷锟斤拷
+title: 锟斤拷
 SEOTitle: Peter's Blog
 header-img: img/post-bg-desk.jpg
 email: 57658689098a@gmail.com
 description: "No fun, go die."
 keyword: "LoopyTech, Blog"
-url: "http://www.loopy.tech"          # your host, for absolute URL
+url: "https://loopyme.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/loopyme/loopy.github.io.git" # you code repository
 
@@ -21,7 +21,7 @@ RSS: false
 # weibo_username:     qiubaiying
 #zhihu_username:     qiubaiying
 github_username:    loopyme
-#facebook_username:  baiying.qiu.7
+qq_username:  1144930301
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
