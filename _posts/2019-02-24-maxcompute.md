@@ -4,7 +4,7 @@ title: MaxCompute
 subtitle: MaxCompute平台架构整理
 date:       2019-02-24
 author:     Loopy
-header-img: img/post-bg-2015.jpg
+header-img: img/post-bg-alibaba.jpg
 catalog: true
 tags:
     - aca
