@@ -1,7 +1,7 @@
 ---
 layout:     post
 title: MaxCompute
-subtitle: Hadoop? 数加?
+subtitle: MaxCompute平台架构整理
 date:       2019-02-24
 author:     Loopy
 header-img: img/post-bg-2015.jpg
