@@ -54,15 +54,15 @@ rename : ```alter table table_name rename to new_table_name;```
   like||✓||✓|只能复制单张表的结构
 
 # B. 分区
- - 添加分区 : ```alter table table_name add [if not exists] partition partition_spec```
- - 删除分区```alter table table_name drop [if exists] partition_spec```
+ - 添加分区 : ```alter table table_name add [if not exists] partition partition_spec;```
+ - 删除分区```alter table table_name drop [if exists] partition_spec;```
  - 其中:```partition_spec:(partition_col1 = partition_col_value1,partition_col2 = partition_col_value2,...)```
  - 最高有六个不同的分区键
 
 # C. 修改表属性
- - 添加列 : ```alter table table_name add columns (col_name type1, col_name2 type2)```
+ - 添加列 : ```alter table table_name add columns (col_name type1, col_name2 type2);```
  - 改列名 : ```alter table table_name change column old_col_name rename to new_col_name;```
- - 表注释 : ```alter table table_name set comment 'tbl comment'```
+ - 表注释 : ```alter table table_name set comment 'tbl comment';```
  - 列注释 : ```alter table table_name change column col_name comment 'comment';```
  - 生命周期 : ```alter table table_name set lifecycle days;```
  - 修改时间 : ```alter table table_name touch [partition(partition_col='partition_col_value',...)];```
@@ -76,4 +76,4 @@ create [or replace] view [if not exists] view_name
   [AS select_statement]
   ```
   - 删除视图:```drop view[if not exists] view_name;```
-  - 重命名视图:```alter view view_name rename to new_view_name```
+  - 重命名视图:```alter view view_name rename to new_view_name;```
