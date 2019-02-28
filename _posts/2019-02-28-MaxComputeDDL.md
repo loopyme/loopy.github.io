@@ -41,8 +41,8 @@ create table [if not exists] table_name
  - 不指定就不回收
 
 5. 快捷建表 CTAS
-  Like方法 : ```create table <table_name> as select <column_list> from <table_name> where...;```
-  As方法 :  ```create table <tanle_name> like <table_name>;```  
+ - Like方法 : ```create table <table_name> as select <column_list> from <table_name> where...;```
+ - As方法 :  ```create table <tanle_name> like <table_name>;```  
 
   区别:
 
