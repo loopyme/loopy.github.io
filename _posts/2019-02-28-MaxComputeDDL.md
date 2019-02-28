@@ -23,11 +23,9 @@ create table [if not exists] table_name
 
 1. 大体和sql-ddl类似,其中有一点不同的是:分区列在分区声明位置(第三行)声明,而不应该出现表的字段定义(第二行)中
 
-2. 建议: 不使用[if not exists].这是为了防止出现错误而不报错.若在建表时出现重复定义(即表名重复):
+2. 建议: 不使用[if not exists].这是为了防止出现错误而不报错.所有操作都应确保操作者完全掌握数据库内容.所以删表时加上[if exists]是合适的.若在建表时出现重复定义(即表名重复):
  - 若使用了[if not exists],会跳过建表这一段继续向下执行,而不停止或报错.这容易使操作者误以为操作成功
  - 若未使用[if not exists],会停止执行,并报错
-
- 总的来说,所有操作都应确保 操作者完全掌握数据库内容.所以删表时加上[if exists]是合适的.
 
 3. delete & rename
  - delete : ```drop table [if exists] table_name;```
