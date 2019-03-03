@@ -7,7 +7,7 @@ author:     Loopy
 header-img: img/post-bg-alibaba.jpg
 catalog: true
 tags:
-    - MaxCompute LearningNotes
+    - MaxCompute_LearningNotes
 
 ---
 
