@@ -14,7 +14,7 @@ tags:
 
 我的笔记:
 
-![database.png]:[databasestr]
+![database.png][databasestr]
 
 
 
