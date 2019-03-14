@@ -1,7 +1,7 @@
 ---
 layout:     post
 title: MaxCompute DML实验
-subtitle: 只放了张图的偷懒博客
+subtitle: 实验操作笔记
 date:       2019-03-12
 author:     Loopy
 header-img: img/post-bg-alibaba.jpg
