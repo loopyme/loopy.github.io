@@ -69,7 +69,7 @@ wordpress是经典操作，甚至阿里云上都有开包可用的wordpress镜�
 1. 配置好一个你会用的[Git客户端](https://blog.csdn.net/itmyhome1990/article/details/39579099)
 
 2. fork我的仓库:```https://github.com/loopyme/loopyme.github.io.git```
-3. 改配置文件:[建站详细教程](https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)**
+3. 改配置文件:[建站详细教程](https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
 
 ## 2.2 阿里云＋typecho
 
