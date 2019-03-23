@@ -9,6 +9,7 @@ catalog: true
 tags:
     - XilinxVivado
     - install
+    - ubuntu
 ---
 
 >Vivado Design Suite是Xilinx为HDL设计的综合和分析而设计的软件套件，取代了Xilinx ISE，具有用于片上系统和高级综合的附加功能。 Vivado代表了对整个设计流程的重新思考和重新思考，并且被评论者描述为“精心构思，紧密集成，快速，可扩展，可维护和直观
