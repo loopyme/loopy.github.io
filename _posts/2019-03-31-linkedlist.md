@@ -28,6 +28,7 @@ tags:
 从书上抄，再自己加个构造函数就行了。可惜我最终还是没找到针对代码的OCR，只能手打。
 ```c++
 /// 双向链表的节点
+
 template<typename E>
 class Link {
 private:
@@ -69,6 +70,7 @@ Link<E> *Link<E>::freelist = NULL;
 
 ```c++
 /// 双项链表
+
 template<typename E>
 class LinkedList {
 protected:
@@ -133,11 +135,13 @@ public:
 ///////////////////////////// 测试用例参数(写的时候还没公布测试用例..)
 
 // 多项式系数&阶数的数据类型
+
 # define number int
 
 /////////////////////////////
 
 /// 存储每一项的系数和阶数
+
 struct Term {
     number coefficient;
     number order;
@@ -152,15 +156,21 @@ struct Term {
 ///////////////////////////// 测试用例参数(写的时候还没公布测试用例..)
 
 // 输入的多项式阶数是否有序
+
 //# define isSorted
 
 // 输入的多项式阶数是否按降序
+
 //# define isDescending
 
 // 系数为0或次数为0是否需要输出
+
 // define printzero
+
 /////////////////////////////
+
 /// 多项式类,继承自LinkedList
+
 class Multinomial : public LinkedList<Term> {
 public:
     /**
@@ -176,7 +186,9 @@ public:
         }
 
 #ifndef isSorted
+
         // bubble sort to get ascending
+
         curr = head->next;
         Link<Term> *j;
         Term buffer;
@@ -193,9 +205,11 @@ public:
             }
             curr = curr->next;
         }
+
 #endif
 
 #ifdef isDescending
+
         Link<Term> *buffer;
         curr = head;
         while (curr != tail) {
@@ -211,12 +225,18 @@ public:
     }
 
     /**
+
 * @brief 多项式的输出
+
 * @param isAscending 布尔,是否升序输出
+
 * @todo Overload cout
+
 */
     void print(bool isAscending = true) {
+
 #ifdef printzero
+
         if (isAscending) {
             curr = head->next;
             while (true) {
@@ -242,8 +262,11 @@ public:
                 }
             }
         }
+
 #endif
+
 #ifndef printzero
+
         bool isFirstTerm = true;
         if (isAscending) {
             curr = head->next;
@@ -295,10 +318,15 @@ public:
 #endif
     }
 /**
+
 * @brief 多项式加法,结果直接存在it里
+
 * @param m 加法的加数
+
 * @todo Overload +
+
 */
+
     void add(Multinomial m) {
         curr = head->next;
         m.curr = m.head->next;
@@ -336,7 +364,7 @@ public:
 以前写了个shell脚本，对CPP项目Git+Doxygen一键操作，还能自动上传到html服务器，于是就有了[这个东西](http://api.loopy.tech/api/multinomial/index.html)。
 
 所以这个项目的自动头部注释长这样（别去clone那个仓库...那是个私库）
-```c++
+```
 /**
  * @File    : Multinomial.h
  * @Desc    : 链表,链表节点,多项式,项,三个类加一个结构体
@@ -351,5 +379,5 @@ public:
 
 ### 搞定
 > *上完实验课更新：*
-> 
+>
 > 等到什么时候有空，我一定写一篇“如何在一下午从0开始配置好一个OJ平台”。。。
