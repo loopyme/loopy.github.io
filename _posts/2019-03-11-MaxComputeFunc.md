@@ -1,7 +1,7 @@
 ---
 layout:     post
 title: MaxCompute内置函数整理
-subtitle: 只放了张图的偷懒博客
+subtitle: 只放了张图的偷懒日志
 date:       2019-03-11
 author:     Loopy
 header-img: img/post-bg-alibaba.jpg
