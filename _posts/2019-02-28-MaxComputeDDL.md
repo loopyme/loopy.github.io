@@ -1,7 +1,7 @@
 ---
 layout:     post
-title: MaxCompute-数据定义语言
-subtitle: MaxCompute-DDL 学习笔记
+title: MaxCompute-DDL
+subtitle: ACA课程学习笔记（3）
 date:       2019-02-28
 author:     Loopy
 header-img: img/post-bg-alibaba.jpg

@@ -1,7 +1,7 @@
 ---
 layout:     post
 title: MaxCompute DML实验
-subtitle: 实验操作笔记
+subtitle: ACA课程学习笔记（6）
 date:       2019-03-12
 author:     Loopy
 header-img: img/post-bg-alibaba.jpg

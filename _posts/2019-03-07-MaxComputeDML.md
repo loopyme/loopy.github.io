@@ -1,7 +1,7 @@
 ---
 layout:     post
-title: MaxCompute-数据操纵语言
-subtitle: MaxCompute-DML 学习笔记
+title: MaxCompute-DML
+subtitle: ACA课程学习笔记（4）
 date:       2019-03-07
 author:     Loopy
 header-img: img/post-bg-alibaba.jpg

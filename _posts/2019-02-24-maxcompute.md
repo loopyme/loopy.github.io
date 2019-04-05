@@ -1,7 +1,7 @@
 ---
 layout:     post
-title: MaxCompute
-subtitle: MaxCompute平台架构整理
+title: MaxCompute平台架构整理
+subtitle: ACA课程学习笔记（2）
 date:       2019-02-24
 author:     Loopy
 header-img: img/post-bg-alibaba.jpg

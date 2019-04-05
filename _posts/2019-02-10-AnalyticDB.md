@@ -1,7 +1,7 @@
 ---
 layout:     post
-title: 分析型数据库
-subtitle: AnalyticDB学习笔记
+title: 分析型数据库AnalyticDB
+subtitle: ACA课程学习笔记（1）
 date:       2019-02-10
 author:     Loopy
 header-img: img/post-bg-alibaba.jpg
