@@ -7,7 +7,7 @@ author:     Loopy
 header-img: img/post-bg-alibaba.jpg
 catalog: true
 tags:
-    - MaxCompute_LearningNotes
+    - ACA-BigData
 ---
 
 > 分析型数据库（AnalyticDB）是一种高并发低延时的PB级实时数据仓库，全面兼容MySQL协议以及SQL:2003 语法标准，可以毫秒级针对万亿级数据进行即时的多维分析透视和业务探索。
