@@ -4,12 +4,23 @@ title: Mathematics of a Model Predicting Happiness
 subtitle: Fisher假设检验方法用于多分类问题评分的思考
 date:       2019-05-28
 author:     Loopy
-header-img: img/post-bg-geek.jpg
+header-img: img/home-bg-geek.jpg
 catalog: true
 tags:
     - Data
 
 ---
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+      processEscapes: true
+    }
+  });
+  </script>
+<script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 > 也可参见本文的[jupyter发布版本](http://file.loopy.tech/release/FisherScore.html),[Github仓库](https://github.com/loopyme/AliTianChi/blob/master/多分类_幸福度/Fisher假设检验方法用于多分类问题评分的思考.ipynb),或[online-playground](http://jupyter.loopy.tech:8888/notebooks/Fisher假设检验方法用于多分类问题评分的思考.ipynb)
 
@@ -217,9 +228,9 @@ def score(y_pred,y_true):
     s_sample = y_true.count()
     s_cat = limit[1]-limit[0]
     score = 0
-    
+
     data = pd.DataFrame([y_pred,y_true],index=['pred','true']).T
-    
+
     for i in range(limit[0],limit[1]+1):
         s_i_ = data[data['true']==i]['true'].count()
         s_i =  data[data['true']==i][data['pred']==data['true']]['pred'].count()
