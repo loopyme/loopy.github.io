@@ -2,7 +2,7 @@
 title: LoopyTech
 SEOTitle: 学习日志
 header-img: img/home-bg.jpg
-email: 57658689098a@gmail.com
+email: peter@mail.loopy.tech
 description: "No fun, go die."
 keyword: "LoopyTech, Blog"
 url: "https://loopyme.github.io/"          # your host, for absolute URL
@@ -113,4 +113,3 @@ service-worker: true
 #        href: "https://developer.apple.com/"
 #    }
 #]
-
